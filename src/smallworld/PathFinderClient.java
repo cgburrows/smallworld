@@ -82,6 +82,8 @@ public class PathFinderClient {
         }
         return path;
     }
+    
+    
 
 
     public static void main(String[] args) {
@@ -99,6 +101,4 @@ public class PathFinderClient {
             StdOut.println("distance " + pf.distanceTo(t));
         }
     }
-
-
 }
